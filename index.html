@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <div class="container">
+        <div class="generator-container">
+            <div class="password-input-container"><label for="password">Password: </label><input type="text" class="password-input" name="password"><img src="library_add_FILL0_wght400_GRAD0_opsz24.png" alt="copy" class="copy-text"></div>
+            <div class="password-lenght-container"><label class="length-label" for="length">Password length: <span class="input-value">1</span></label><input type="range" min="1" value="1" max="50" class="password-length" name="length"></div>
+            <div class="password-requirements-container">
+                <ul class="password-requirements">
+                    <li><label for="uppercase"><input type="checkbox" class="uppercase" name="uppercase"> Uppercase</label></li>
+                    <li><label for="lowercase"><input type="checkbox" class="lowercase" name="lowercase"> Lowercase</label></li>
+                    <li><label for="numbers"><input type="checkbox" class="numbers" name="numbers"> Numbers</label></li>
+                    <li><label for="signs"><input type="checkbox" class="signs" name="signs"> Signs</label></li>
+                </ul>
+            </div>
+            <div class="generate-button"><button class="generate-password">Generate password</button></div>
+        </div>
+    </div>
+</body>
+</html>
